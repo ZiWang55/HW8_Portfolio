@@ -1,0 +1,65 @@
+/*background*/
+body {
+  background-image: url(Assets/Images/background.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+
+/* navbar title */
+
+.ziwang {
+    color: #f3f3f3;
+  background-color: #283747;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+/*profile picture*/
+.profilepic {
+  height: 200px;
+  width: auto;
+  float: left;
+  margin-right: 20px;
+}
+
+h1 {
+  color:#283747;
+}
+
+/*footer*/
+.footer {
+  background-color: #f3f3f3;
+  overflow: hidden;
+  clear: both;
+  padding-top: 0px;
+  border-top: 1px solid #bbb;
+  color: #aaa;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.portfolio {
+  border: 3px solid #283747;
+  border-radius: 4px;
+  padding: 5px;
+  width: 350px;
+  margin: auto;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.aboutme {
+  /* background-color: #283747; */
+  /* color: #f3f3f3; */
+  border-radius: 5px;
+  padding: 10px;
+  opacity: .95;
+}

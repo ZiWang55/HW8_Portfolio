@@ -8,12 +8,14 @@ body {
 
 /* navbar style */
 .nav-link {
+  color: #283747;
   transition-duration: 0.4s;
 }
 .nav-link:hover {
   background-color: #de354c; /* Green */
   color: white;
   border-radius: 5px;
+  transition-duration: 0.4s;
 }
 
 .ziwang {
@@ -23,7 +25,12 @@ body {
   border-radius: 4px;
 }
 
-.ziwang 
+.ziwang:hover {
+  background-color: #de354c; /* Green */
+  color: white;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
 
 /*profile picture*/
 .profilepic {

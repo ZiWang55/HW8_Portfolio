@@ -6,7 +6,15 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* navbar title */
+/* navbar style */
+.nav-link {
+  transition-duration: 0.4s;
+}
+.nav-link:hover {
+  background-color: #de354c; /* Green */
+  color: white;
+  border-radius: 5px;
+}
 
 .ziwang {
   color: #f3f3f3;
@@ -14,6 +22,8 @@ body {
   padding: 3px;
   border-radius: 4px;
 }
+
+.ziwang 
 
 /*profile picture*/
 .profilepic {

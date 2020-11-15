@@ -5,7 +5,6 @@ body {
   background-size: cover;
   font-family: "Roboto", sans-serif;
 }
-
 /* navbar style */
 .nav-link {
   color: #283747;
@@ -41,17 +40,17 @@ body {
 }
 
 h1 {
-  color:#283747;
+  color: #283747;
 }
 
 /*footer*/
 .footer {
-  background-color: #f3f3f3;
+  color: #283747;
   overflow: hidden;
   clear: both;
   padding-top: 0px;
   border-top: 1px solid #bbb;
-  color: #aaa;
+  opacity: 0.5;
   position: fixed;
   height: 50px;
   width: 100%;
@@ -62,34 +61,31 @@ h1 {
   padding-bottom: 10px;
   text-align: center;
 }
-
+/* portfolio showcase style */
 .portfolio {
-  border: 3px solid #283747;
-  border-radius: 4px;
-  padding: 5px;
+  border: 3px solid#3c1874;
+  border-radius: 10px;
+  padding: 3px;
   width: 350px;
   margin: auto;
   margin-bottom: 30px;
   display: block;
   height: 250px;
 }
-
+/* about me container */
 .aboutme {
   /* background-color: #283747; */
   /* color: #f3f3f3; */
   border-radius: 5px;
   padding: 10px;
-  opacity: .95;
+  opacity: 0.95;
 }
-
+/* button styling */
 .button {
-
- 
-
   border-radius: 4px;
-  background-color: #de354c;
+  background-color: #932432;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   font-size: 15px;
   padding: 20px;
@@ -97,8 +93,6 @@ h1 {
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
- 
-  
 }
 
 .button span {
@@ -109,7 +103,7 @@ h1 {
 }
 
 .button span:after {
-  content: '\00bb';
+  content: "\00bb";
   position: absolute;
   opacity: 0;
   top: 0;
@@ -119,10 +113,10 @@ h1 {
 
 .button:hover span {
   padding-right: 25px;
+  color: #283747;
 }
 
 .button:hover span:after {
   opacity: 1;
   right: 0;
 }
-

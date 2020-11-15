@@ -19,4 +19,7 @@ document.querySelector(".weatherGithub").onclick = function weatherDashCode() {
     window.open(url);
 }
 // Link to weather dashboard live deployed site
-document.querySelector(".weatherLive").onclick = weatherDashLive;
+document.querySelector(".weatherLive").onclick = function weatherDashLive() {
+    let url = "https://ziwang55.github.io/HW6_Weather_Dashboard";
+    window.open(url);
+}

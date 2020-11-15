@@ -1,6 +1,6 @@
 # About Me Webpage #
 
-This webpage is for me to show case my knowledge and knowing how to work with bootstrap and its components with the grid system to creat a responsive webpage.
+This webpage is for me to show case my knowledge and knowing how to work with bootstrap and its components with the grid system to creat a responsive and easy to use webpage. With my portfolio constantly updated with the most up to date materials I've created, with information about me, up to date resume and contact info.
 
 # Webpage access link #
 

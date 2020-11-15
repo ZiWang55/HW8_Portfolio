@@ -1,5 +1,13 @@
-//  = codeQuizCode;
-
+// Link to Beer Day Helper github code
+document.querySelector(".beerDayCode").onclick = function beerDayCode() {
+    let url = "";
+    window.open(url);
+}
+// Link to Beer Day Helper live site
+document.querySelector(".beerDayliveLink").onclick = function beerDayLive() {
+    let url = "";
+    window.open(url);
+}
 // Link to javascript code quiz code
 document.querySelector(".quizGithubCode").onclick = function codeQuizCode() {
   let url = "https://github.com/ZiWang55/HW4_CodeQuiz";

@@ -1,11 +1,11 @@
 // Link to Beer Day Helper github code
 document.querySelector(".beerDayCode").onclick = function beerDayCode() {
-    let url = "";
+    let url = "https://github.com/ryan-conran/Beer-Day-Helper";
     window.open(url);
 }
 // Link to Beer Day Helper live site
 document.querySelector(".beerDayliveLink").onclick = function beerDayLive() {
-    let url = "";
+    let url = "https://ryan-conran.github.io/Beer-Day-Helper";
     window.open(url);
 }
 // Link to javascript code quiz code

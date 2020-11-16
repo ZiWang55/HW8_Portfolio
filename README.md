@@ -26,6 +26,6 @@ Open with VScode.
 
 
 ## License ##
-Copyright 2020 Univeristy of Minnesota Part-Time Full Stack Coding Boot Camp.
+&Copy; 2020 Zi Wang.
 
 ## W3C Validator ##

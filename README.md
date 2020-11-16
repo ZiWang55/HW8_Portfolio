@@ -1,4 +1,4 @@
-![Gif]()
+![Gif](Assets/Images/Portfolio.gif)
 
 # About Me Webpage #
 

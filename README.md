@@ -27,3 +27,4 @@ Open with VScode.
 &Copy; 2020 Zi Wang.
 
 ## W3C Validator ##
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fziwang55.github.io%2FHW8_Portfolio%2F

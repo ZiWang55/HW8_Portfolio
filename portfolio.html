@@ -1,104 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- webpage tab title -->
-    <title>Portfolio</title>
-    <!-- bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <!-- css style file -->
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <!--navbar section-->
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand ziwang" href="index.html">Zi Wang</a>
-      <a href="https://www.linkedin.com/in/ziwang55"><i class="fab fa-linkedin-in"></i></a>
-      <a class="github" href="https://github.com/ZiWang55"><i class="fab fa-github"></i></a>
-      <!--navbar list on right side-->
-      <div class="ml-auto">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="resume.html">Resume</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- webpage tab title -->
+  <title>Portfolio</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <!-- css style file -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!--navbar section-->
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand ziwang" href="index.html">Zi Wang</a>
+    <a class="ziwang" href="https://www.linkedin.com/in/ziwang55"><i class="fab fa-linkedin-in"></i></a>
+    <a class="ziwang github" href="https://github.com/ZiWang55"><i class="fab fa-github"></i></a>
+    <!--navbar list on right side-->
+    <div class="ml-auto">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="resume.html">Resume</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- portfolio main container -->
+
+  <div class="container mt-4 p-5">
+    <h1>Portfolio</h1>
+    <hr />
+
+    <!-- content inside of portfolio container -->
+    <div class="row mt-5">
+      <div class="col-md-12 col-lg-6">
+        <img class="portfolio" src="Assets/Images/beerDayHelper.gif" alt="beerdayhelper gif" />
+        <button class="button beerDayCode" style="vertical-align: middle">
+          <span>Beer Day Helper Github Code</span>
+        </button>
+        <button class="button beerDayLiveLink" style="vertical-align: middle">
+          <span>Beer Day Helper Live Link</span>
+        </button>
       </div>
-    </nav>
-
-    <!-- portfolio main container -->
-
-    <div class="container mt-4 p-5">
-      <h1>Portfolio</h1>
-      <hr />
-
-      <!-- content inside of portfolio container -->
-      <div class="row mt-5">
-        <div class="col-md-12 col-lg-6">
-          <img
-          class="portfolio"
-          src="Assets/Images/beerDayHelper.gif"
-          alt="beerdayhelper gif"
-        />
-          <button class="button beerDayCode" style="vertical-align: middle">
-            <span>Beer Day Helper Github Code</span>
-          </button>
-          <button class="button beerDayLiveLink" style="vertical-align: middle">
-            <span>Beer Day Helper Live Link</span>
-          </button>
-        </div>
-        <div class="col-md-12 col-lg-6">
-          <img
-            class="portfolio"
-            src="Assets/Images/codeQuizDemo.gif"
-            alt="codequiz gif"
-          />
-          <button class="button quizGithubCode" style="vertical-align: middle">
-            <span>Javascript Quiz Github Code</span>
-          </button>
-          <button class="button quizLiveLink" style="vertical-align: middle">
-            <span>Quiz Live Link</span>
-          </button>
-        </div>
+      <div class="col-md-12 col-lg-6">
+        <img class="portfolio" src="Assets/Images/codeQuizDemo.gif" alt="codequiz gif" />
+        <button class="button quizGithubCode" style="vertical-align: middle">
+          <span>Javascript Quiz Github Code</span>
+        </button>
+        <button class="button quizLiveLink" style="vertical-align: middle">
+          <span>Quiz Live Link</span>
+        </button>
       </div>
-      <div class="row mt-5">
-        <div class="col-md-12 col-lg-6">
-          <img
-            class="portfolio"
-            src="Assets/Images/WeatherDashboard.gif"
-            alt="weatherdashboard gif"
-          />
-          <button class="button weatherGithub" style="vertical-align: middle">
-            <span>Weather Dashboard Github Code</span>
-          </button>
-          <button class="button weatherLive" style="vertical-align: middle">
-            <span>Weather Live Link</span>
-          </button>
-        </div>
-        <div class="col-md-12 col-lg-6"></div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-12 col-lg-6">
+        <img class="portfolio" src="Assets/Images/WeatherDashboard.gif" alt="weatherdashboard gif" />
+        <button class="button weatherGithub" style="vertical-align: middle">
+          <span>Weather Dashboard Github Code</span>
+        </button>
+        <button class="button weatherLive" style="vertical-align: middle">
+          <span>Weather Live Link</span>
+        </button>
       </div>
+      <div class="col-md-12 col-lg-6"></div>
+    </div>
 
-      <!-- <div class="row">
+    <!-- <div class="row">
       <div class="col-md-6 col-lg-6">
         <img class="portfolio" src="Assets/Images/portfolio.png" alt="portfolio photo" />
       </div>
@@ -106,20 +88,21 @@
         <img class="portfolio" src="Assets/Images/portfolio.png" alt="portfolio photo" />
       </div>
     </div> -->
-      <!-- <div class="row">
+    <!-- <div class="row">
       <div class="col-md-6 col-lg-6">
         <img class="portfolio" src="Assets/Images/portfolio.png" alt="portfolio photo" />
       </div>
       <div class="col-md-6 col-lg-6"></div>
     </div>
   </div> -->
-    </div>
-    <!-- footer -->
-    <footer class="footer">
-      <p class="text-muted">&copy;</p>
-    </footer>
-    <script src="script.js"></script>
-    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
-  </body>
+  </div>
+  <!-- footer -->
+  <footer class="footer">
+    <p class="text-muted">&copy;</p>
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+</body>
+
 </html>

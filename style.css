@@ -6,6 +6,9 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.navbutton {
+  background-color: #283747;
+}
 /* navbar style */
 .nav-link {
   color: #283747;

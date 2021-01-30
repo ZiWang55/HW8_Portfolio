@@ -30,3 +30,25 @@ document.querySelector(".weatherLive").onclick = function () {
   let url = "https://ziwang55.github.io/HW6_Weather_Dashboard";
   window.open(url);
 };
+
+// Link to eat da burger code
+document.querySelector(".eatDaBurgerCode").onclick = function () {
+  let url = "https://github.com/ZiWang55/Burger";
+  window.open(url);
+};
+// Link to eat da burger live deployed site
+document.querySelector(".eatDaBurgerLive").onclick = function () {
+  let url = "https://mighty-wave-52201.herokuapp.com/";
+  window.open(url);
+};
+
+// Link to Whats Streamin code
+document.querySelector(".whatsStreaminCode").onclick = function () {
+  let url = "https://github.com/ZiWang55/WhatsStreamin";
+  window.open(url);
+};
+// Link to Whats Streamin live deployed site
+document.querySelector(".whatsStreaminLive").onclick = function () {
+  let url = "https://quiet-beach-99514.herokuapp.com/";
+  window.open(url);
+};

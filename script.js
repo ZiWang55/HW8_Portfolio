@@ -52,3 +52,14 @@ document.querySelector(".whatsStreaminLive").onclick = function () {
   let url = "https://quiet-beach-99514.herokuapp.com/";
   window.open(url);
 };
+
+// Link to Covid 19 Tracker code
+document.querySelector(".covidcode").onclick = function () {
+  let url = "https://github.com/ZiWang55/Covid_19_Tracker";
+  window.open(url);   
+};
+// Link to Covid 19 Tracker live deployed site
+document.querySelector(".covidlive").onclick = function () {
+  let url = "https://covid-track3r-app.herokuapp.com/";
+  window.open(url);
+};

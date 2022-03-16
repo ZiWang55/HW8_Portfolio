@@ -10,6 +10,11 @@ body {
   background-color: #283747;
 }
 /* navbar style */
+
+.nav-item {
+  margin-left: 15px;
+}
+
 .nav-link {
   color: #283747;
   transition-duration: 0.4s;
@@ -27,14 +32,6 @@ body {
   background-color: #283747;
   padding: 3px;
   border-radius: 4px;
-}
-
-.ziwang:hover {
-  background-color: #de354c; /* Green */
-  color: white;
-  border-radius: 5px;
-  transition-duration: 0.4s;
-  padding: 5px;
 }
 
 /*profile picture*/
@@ -73,8 +70,6 @@ h1 {
 
 /* about me container */
 .aboutme {
-  /* background-color: #283747; */
-  /* color: #f3f3f3; */
   border-radius: 5px;
   padding: 25px;
   opacity: 0.95;
@@ -127,7 +122,7 @@ h1 {
   overflow: hidden;
   height: 100%;
   width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  padding-top: 56.25%;
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
@@ -158,5 +153,20 @@ h1 {
 @media only screen and (max-width: 1000px) {
   .secondcol {
     margin-top: 50px;
+  }
+
+  .navbar-nav {
+    align-items: center;
+  }
+
+  .nav-item {
+    margin-left: 0px;
+    margin-top: 5px;
+    align-items: center;
+    width: 20%;
+  }
+
+  .nav-link {
+    text-align: center;
   }
 }
